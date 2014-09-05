@@ -1,0 +1,15 @@
+CREATE TABLE account (
+	id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	email VARCHAR(128) NOT NULL,
+	password VARCHAR(128) NOT NULL
+);
+
+CREATE TABLE verification (
+	account_id INTEGER NOT NULL,
+	type INTEGER NOT NULL,
+	code VARCHAR(128) NOT NULL,
+	data TEXT,
+	PRIMARY KEY (account_id, type),
+	CONSTRAINT FK_verification_account FOREIGN KEY (account_id)
+		REFERENCES account (id) ON DELETE CASCADE ON UPDATE CASCADE
+);

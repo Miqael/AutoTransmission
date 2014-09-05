@@ -1,0 +1,53 @@
+2014/08/05 01:52:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Network is unreachable' in /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Users/Miqael/Sites/real_body_shop/framework/base/CModule.php(387): CDbConnection->init()
+#3 /Users/Miqael/Sites/real_body_shop/framework/base/CModule.php(523): CModule->getComponent('db')
+#4 /Users/Miqael/Sites/real_body_shop/framework/base/CApplication.php(163): CModule->preloadComponents()
+#5 /Users/Miqael/Sites/real_body_shop/framework/YiiBase.php(125): CApplication->__construct('/Users/Miqael/S...')
+#6 /Users/Miqael/Sites/real_body_shop/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/Users/Miqael/S...')
+#7 /Users/Miqael/Sites/real_body_shop/index.php(13): YiiBase::createWebApplication('/Users/Miqael/S...')
+#8 {main}
+REQUEST_URI=/
+---
+2014/08/05 01:52:11 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Network is unreachable' in /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Users/Miqael/Sites/real_body_shop/framework/base/CModule.php(387): CDbConnection->init()
+#3 /Users/Miqael/Sites/real_body_shop/framework/base/CModule.php(523): CModule->getComponent('db')
+#4 /Users/Miqael/Sites/real_body_shop/framework/base/CApplication.php(163): CModule->preloadComponents()
+#5 /Users/Miqael/Sites/real_body_shop/framework/YiiBase.php(125): CApplication->__construct('/Users/Miqael/S...')
+#6 /Users/Miqael/Sites/real_body_shop/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/Users/Miqael/S...')
+#7 /Users/Miqael/Sites/real_body_shop/index.php(13): YiiBase::createWebApplication('/Users/Miqael/S...')
+#8 {main}
+REQUEST_URI=/favicon.ico
+HTTP_REFERER=http://real_body_shop.dev/
+---
+2014/08/06 01:16:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Network is unreachable' in /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Users/Miqael/Sites/real_body_shop/framework/base/CModule.php(387): CDbConnection->init()
+#3 /Users/Miqael/Sites/real_body_shop/framework/base/CModule.php(523): CModule->getComponent('db')
+#4 /Users/Miqael/Sites/real_body_shop/framework/base/CApplication.php(163): CModule->preloadComponents()
+#5 /Users/Miqael/Sites/real_body_shop/framework/YiiBase.php(125): CApplication->__construct('/Users/Miqael/S...')
+#6 /Users/Miqael/Sites/real_body_shop/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/Users/Miqael/S...')
+#7 /Users/Miqael/Sites/real_body_shop/index.php(13): YiiBase::createWebApplication('/Users/Miqael/S...')
+#8 {main}
+REQUEST_URI=/
+---
+2014/08/06 01:17:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] Network is unreachable' in /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /Users/Miqael/Sites/real_body_shop/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /Users/Miqael/Sites/real_body_shop/framework/base/CModule.php(387): CDbConnection->init()
+#3 /Users/Miqael/Sites/real_body_shop/framework/base/CModule.php(523): CModule->getComponent('db')
+#4 /Users/Miqael/Sites/real_body_shop/framework/base/CApplication.php(163): CModule->preloadComponents()
+#5 /Users/Miqael/Sites/real_body_shop/framework/YiiBase.php(125): CApplication->__construct('/Users/Miqael/S...')
+#6 /Users/Miqael/Sites/real_body_shop/framework/YiiBase.php(98): YiiBase::createApplication('CWebApplication', '/Users/Miqael/S...')
+#7 /Users/Miqael/Sites/real_body_shop/index.php(13): YiiBase::createWebApplication('/Users/Miqael/S...')
+#8 {main}
+REQUEST_URI=/
+---
